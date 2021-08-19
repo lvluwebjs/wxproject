@@ -1,0 +1,17 @@
+<!--radio标签
+必须和radio-group一起来使用,value为选中的单选框的值
+需要给radio-group来绑定change事件
+-->
+<radio-group bindchange="handlechange">
+  <radio value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>
+<view>您选中的是:{{gender}}</view>
+
+<!-- checkbox复选框 和<checkbox-group></checkbox-group>来合用 -->
+<checkbox-group bindchange="handlecheck">
+  <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="{{item.id}}">{{item.name}}</checkbox>
+</checkbox-group>
+<view>
+  {{checkList}}
+</view>

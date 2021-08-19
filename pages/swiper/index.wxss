@@ -1,0 +1,8 @@
+/* pages/swiper/index.wxss */
+swiper{
+  width: 100%;
+  height: calc(100vw * 279 / 700);
+}
+image{
+  width: 100%;
+}

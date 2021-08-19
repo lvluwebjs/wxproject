@@ -1,0 +1,20 @@
+<!--pages/home/index.wxml-->
+<view>
+  <Tabs tabListh="{{tabListh}}" current="{{current}}" bindmyeventh="myeventh">
+    <view slot="b">
+      <block wx:if="{{current==0}}">
+        <view>a</view>
+      </block>
+      <block wx:if="{{current==1}}">
+        <view>b</view>
+      </block>
+      <block wx:if="{{current==2}}">
+        <view>c</view>
+      </block>
+      <block wx:if="{{current==3}}">
+        <view>d</view>
+      </block>
+    </view>
+  </Tabs>
+  <navigator url='../compoent/index'>回到</navigator>
+</view>

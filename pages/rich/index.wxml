@@ -1,0 +1,4 @@
+<!--rich-text-->
+<!-- <text>富文本标签 nodes属性来实现</text> -->
+<rich-text nodes="{{html}}"></rich-text>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取个人信息</button>

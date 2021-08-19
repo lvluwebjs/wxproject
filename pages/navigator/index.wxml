@@ -1,0 +1,4 @@
+<!--导航组件 url为需要跳转到的页面路径-->
+<navigator url="/pages/swiper/index">轮播页面</navigator>
+
+

@@ -1,0 +1,6 @@
+<!-- 轮播图 -->
+<swiper autoplay interval="1500" circular indicator-dots>
+<swiper-item><image mode="widthFix" src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/194205/37/18557/92361/6118e3f4E6aee97a2/0ba24cf7badc3176.jpg!cr_1053x420_4_0!q70.jpg.dpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/172985/20/11254/250873/60ab712bE2cfd0e52/f184257039a404d1.png!cr_1053x420_4_0!q70.jpg.dpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/201912/32/1154/56655/61162589Eef3f77f5/3c2f52547f0f7188.jpg!cr_1053x420_4_0!q70.jpg.dpg"></image></swiper-item>
+</swiper>

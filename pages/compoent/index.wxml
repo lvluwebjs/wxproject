@@ -1,0 +1,19 @@
+<!--pages/compoent/index.wxml-->
+<view>
+  <Tabs tabList="{{tabList}}" current="{{current}}" bindmyevent="myevent">
+    <view slot="a">
+      <block wx:if="{{current==0}}">
+        <view>0</view>
+      </block>
+      <block wx:if="{{current==1}}">
+        <view>1</view>
+      </block>
+      <block wx:if="{{current==2}}">
+        <view>2</view>
+      </block>
+      <block wx:if="{{current==3}}">
+        <view>3</view>
+      </block>
+    </view>
+  </Tabs>
+</view>

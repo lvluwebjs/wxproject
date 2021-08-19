@@ -1,0 +1,23 @@
+<!--components/Tabs/tabs.wxml-->
+<view class="tabs">
+  <!-- 标题栏区域 -->
+  <view class="tabs_title">
+    <view class="title_item {{ current == index?'active':''}}" wx:for="{{tabList}}" wx:key="id" data-index="{{index}}"
+      bindtap="itemChange">
+      {{item.name}}
+    </view>
+    <view class="title_item {{ current == index?'activeh':''}}" wx:for="{{tabListh}}" wx:key="id" data-index="{{index}}"
+      bindtap="itemChangeh">
+      {{item.name}}
+    </view>
+  </view>
+  <!-- 标题栏区域 -->
+
+  <!-- 内容区域 -->
+  <view class="tabs_content">
+    <!-- 具名插槽 -->
+    <slot name="a"></slot>
+    <slot name="b"></slot>
+  </view>
+  <!-- 内容区域 -->
+</view>

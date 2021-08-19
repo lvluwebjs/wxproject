@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/tbas/index",
+    "pages/compoent/index",
+    "pages/radio/index",
+    "pages/icon/index",
+    "pages/rich/index",
+    "pages/navigator/index",
+    "pages/swiper/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F63515",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
